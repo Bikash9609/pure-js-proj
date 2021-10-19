@@ -1,0 +1,23 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(21, 0, 80, 0.95);
+}
+
+.internal-wrapper {
+  max-width: 500px;
+  min-width: 500px;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.scrollable-top {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
